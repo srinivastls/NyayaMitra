@@ -304,7 +304,7 @@ Helpful Answer:"""
     rag_prompt = PromptTemplate.from_template(template)
     retriever =vector_store.as_retriever(search_type="mmr", search_kwargs={"k": 20})
     import os
-    os.environ['OPENAI_API_KEY'] = "sk-proj-YaiwNp41YbM3VXjGTEM3T3BlbkFJ0f6UtkPwsb97EIxrJBF2"
+    os.environ['OPENAI_API_KEY'] = ""
     from langchain_openai import ChatOpenAI
 
     model = ChatOpenAI(model="gpt-4")

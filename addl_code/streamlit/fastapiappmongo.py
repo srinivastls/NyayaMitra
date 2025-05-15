@@ -24,7 +24,7 @@ model_name = "phi3"
 llm_phi3 = Ollama(model=model_name)
 
 import os
-os.environ['OPENAI_API_KEY'] = "sk-proj-YaiwNp41YbM3VXjGTEM3T3BlbkFJ0f6UtkPwsb97EIxrJBF2"
+os.environ['OPENAI_API_KEY'] = ""
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(model="gpt-4")
