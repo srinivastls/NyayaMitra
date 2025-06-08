@@ -27,25 +27,6 @@
 
 ---
 
-## 📁 Repository Structure
-
-```
-NyayaMitra/
-├── backend/
-│   ├── app.py
-│   ├── agent.py
-│   ├── tools/
-│   │   ├── pdf_query_tools.py
-│   ├── requirements.txt
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-├── README.md
-```
-
----
-
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
