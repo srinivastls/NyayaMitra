@@ -1,0 +1,9 @@
+transformers
+torch
+datasets
+sentencepiece
+PYmuPDF
+requests
+pymilvus
+accelerate
+plotly

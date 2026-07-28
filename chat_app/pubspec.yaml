@@ -1,0 +1,21 @@
+name: Legal_Chatbot
+description: A legal chatbot application that provides document generation and management features.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^1.3.0
+  dio: ^5.0.0
+  shared_preferences: ^2.0.0
+  path_provider: ^2.0.0
+
+  
+
+flutter:
+  uses-material-design: true
